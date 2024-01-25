@@ -1,0 +1,22 @@
+{
+    "name": "sergeich5/laravel-nova-pwa",
+    "license": "MIT",
+    "description": "Laravel Nova PWA",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Sergeich5\\LaravelNovaPwa\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sergeich5\\LaravelNovaPwa\\LaravelNovaPWAServiceProvider"
+            ]
+        }
+    }
+}
